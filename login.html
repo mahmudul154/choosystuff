@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="login.css">
+  <title>Login/Sign up</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <img style="display: inline;" src="choosy3crop.png" alt="logo" />
+        <h3></h3>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="category.html">Variety</a></li>
+        <li><a href="deals.html">Deals</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+  <h1>Login/Sign up</h1>
+  <form action="login.php" method="post">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br><br>
+    <button type="submit">Login</button>
+  </form>
+  <hr>
+  <h2>Or</h2>
+  <button onclick="window.location.href='https://ecommerce-site.com/auth/facebook'">Login with Facebook</button>
+  <button onclick="window.location.href='https://ecommerce-site.com/auth/google'">Login with Google</button>
+  <hr>
+  <h2>New User?</h2>
+  <a href="signup.php">Sign Up Here</a>
+  <footer>
+        
+    <ul>
+    <li><a href="#">Privacy Policy</a></li>
+    <li><a href="#">Terms of Use</a></li>
+    <li><a href="#">About Us</a></li>
+    </ul>
+    </footer>
+</body>
+</html>
